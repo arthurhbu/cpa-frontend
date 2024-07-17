@@ -1,0 +1,47 @@
+.p { 
+    color: #fff;
+
+}
+.navbar { 
+    display: flex;
+    justify-content: space-between;
+    background-color: #EE4646;
+    padding: 2em;
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.responsive { 
+    max-width: 200px;
+    height: auto;
+}
+
+.responsiveCpaLogo { 
+    max-width: 400px;
+    height: auto;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item { 
+    margin-right: 2em;
+}
+
+.item a { 
+    color: #fff;
+    text-decoration: none;
+}
+
+.item a:hover { 
+    color: #EAC4CB;
+    text-decoration: none;
+}

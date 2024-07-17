@@ -1,0 +1,15 @@
+.home { 
+    min-height: 1000px;
+    text-align: center;
+}
+
+.h1 { 
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.inicio { 
+    width: 1000px;
+    height: 1000px;
+    margin-top: 2em;
+}
