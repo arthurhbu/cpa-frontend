@@ -1,4 +1,5 @@
 import styles from './Home.module.css'; 
+import {Link} from 'react-router-dom';
 
 function Home(){
     return(
@@ -11,14 +12,23 @@ function Home(){
                 <div className={styles.sessionBox}>
                     <p className={styles.tag}>Tutorial</p>
                     <p className={styles.resume}>Tutorial mostrando como inserir e gerar um relatório.</p>
+                    <Link to='/tutorial'>
+                        <button type='button' className={styles.homeButton}>Ir para Tutorial</button>
+                    </Link>
                 </div>
                 <div className={styles.sessionBox}>
                     <p className={styles.tag}>Inserir Arquivo</p>
                     <p className={styles.resume}>Inserir arquivo CSV para leitura e geração de dados.</p>
+                    <Link to='/importar'>
+                        <button type='button' className={styles.homeButton}>Inserir Csv</button>
+                    </Link>
                 </div>
                 <div className={styles.sessionBox}>
                     <p className={styles.tag}>Gerar relatório</p>
                     <p className={styles.resume}>Gerar os relatórios após leitura do CSV e ter gerados os dados</p>
+                    <Link to='/gerar_relatorio'>
+                        <button type='button' className={styles.homeButton}>Gerar Relatório</button>
+                    </Link>
                 </div>
             </div>
         </div>
