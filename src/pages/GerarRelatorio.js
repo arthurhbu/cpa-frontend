@@ -1,8 +1,15 @@
+import styles from './GerarRelatorio.module.css';
+
 function GerarRelatorio(){
     return(
-        <div>
-            <h1>Gerar Relatorio</h1>
-            <p>Conteudo da página</p>
+        <div className={styles.gerarRelatorios}>
+            <div className={styles.intro}>
+                <p className={styles.tituloPagina}>Gerar relatório</p>
+                <p className={styles.infos}>
+                    
+                </p>
+            </div>
+
         </div>
     );
 }

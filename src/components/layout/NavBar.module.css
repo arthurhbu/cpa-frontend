@@ -1,12 +1,13 @@
 .p { 
     color: #fff;
-
+    font-size: 1.3rem;
 }
+
 .navbar { 
     display: flex;
     justify-content: space-between;
     background-color: #EE4646;
-    padding: 2em;
+    padding: 3em;
 }
 
 .header { 
@@ -34,6 +35,7 @@
 
 .item { 
     margin-right: 2em;
+    font-size: 1.3rem;
 }
 
 .item a { 

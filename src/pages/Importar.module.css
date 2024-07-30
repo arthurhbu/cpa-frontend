@@ -1,0 +1,81 @@
+.container { 
+    margin: 0px;
+}
+
+.importar { 
+    min-height: 1000px;
+    width: 100%
+}
+
+.intro { 
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.titulo { 
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.infos { 
+    font-family: 'inter';
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #828282;
+}
+
+.sessionProcArq { 
+    min-height: 550px;
+    padding: 5em;
+    background-color: #E8E8E8;
+    margin-bottom: 10%;
+}
+
+.responsiveLogo { 
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.procurarArquivos__text{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.9rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.procurarButton {
+    color: white;
+    background-color: #2ef092;
+    margin-top: 2em;
+    font-weight: 600;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    border: 0;
+}
+
+.procurarButton:hover { 
+    background-color: #169156;
+    cursor: pointer;
+}
+
+.procurarArquivos_arqSuportados{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: #9A9A9A;
+    margin: 2em;
+}
